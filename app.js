@@ -4,7 +4,7 @@ colors.forEach(color => {
 })
 
 const canvas = document.getElementById('canvas');
-canvas.width = window.innerWidth - 200;
+canvas.width = window.innerWidth - 60;
 
 let context = canvas.getContext('2d');
 
